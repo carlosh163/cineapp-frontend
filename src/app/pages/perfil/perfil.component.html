@@ -1,0 +1,18 @@
+<div style="display: flex; justify-content: center; padding: 5%;">
+<mat-card class="body-card">
+  <mat-card-header>
+    <div mat-card-avatar class="body-header-image"></div>
+    <mat-card-title>Usuario:</mat-card-title>
+    <mat-card-subtitle class="texto-st" style="color: brown">{{usuarioR}}</mat-card-subtitle>
+  </mat-card-header>
+  
+  <img mat-card-image [src]="imagenData" *ngIf="imagenEstado" />
+  <mat-card-content>
+    <div class="texto-st">
+      <span>Roles: </span> <p style="font-weight: bold"> {{roles}}</p>
+    </div>
+  </mat-card-content>
+  
+</mat-card>
+
+</div>

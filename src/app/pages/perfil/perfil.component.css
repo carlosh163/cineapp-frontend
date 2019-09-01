@@ -1,0 +1,12 @@
+.body-card {
+    max-width: 400px;
+  }
+  
+  .body-header-image {
+    background-image: url('https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-256.png');
+    background-size: cover;
+  }
+
+  .texto-st{
+    font-size: 25px;
+  }
